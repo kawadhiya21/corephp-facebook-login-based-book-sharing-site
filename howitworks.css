@@ -1,0 +1,209 @@
+@charset "utf-8";
+/* CSS Document */
+
+/************************** Reset Css is defined here ***********************************/
+
+
+html, body, div, span,   
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+img, ins, kbd, q, s, samp,  
+small, strike, strong,   
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td {  
+    margin: 0;  
+    padding: 0;  
+    border: 0;  
+    outline: 0;  
+    font-size: 100%;  
+    vertical-align: baselinebaseline;  
+    background: transparent;  
+}  
+body {  
+    line-height: 1;  
+}  
+ol, ul {  
+    list-style: none;  
+}  
+blockquote, q {  
+    quotes: none;  
+}  
+blockquote:before, blockquote:after,  
+q:before, q:after {  
+    content: '';  
+    content: none;  
+}  
+  
+table {  
+    border-collapse: collapse;  
+    border-spacing: 0;  
+}  
+
+/*************************************** Common Css is defined here ***************************************/
+
+a{
+    text-decoration:none;
+	color:none;
+}
+#webscreen
+{
+	width: 100%;
+	height: auto;
+	background-color: #999999;
+}
+#wrapper
+{
+   background-color:#F2F2F2;
+	margin-left:auto;
+    margin-right:auto;
+    width:960px;
+	height:800px;
+	-moz-box-shadow: 10px 10px 5px #888;
+    -webkit-box-shadow: 10px 10px 5px #888;
+    box-shadow: 10px 10px 5px #888;
+}
+#tohomepage
+{
+float: left;
+	width: 960px;
+	background-color: #FFFFFF;
+	height: 70px;
+	}
+.tohomepage
+{
+font-family: Verdana, Geneva, sans-serif;
+	font-size: 30px;
+	color: #fff;
+	margin: 13px 0px 0px 250px;
+	}
+
+#header
+{
+float:"left";
+width:"960px";
+height:"300px";
+}
+#descbar
+{
+float:left;
+width:"600px";
+height:"300px";
+}
+#loginarea
+{
+	float: left;
+	width: 360px;
+	height: 300px;
+}
+#logintext
+{
+	float: left;
+	width: 360px;
+	height: 75px;
+}
+.logintext
+{
+	text-indent: 3px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size: 25px;
+	margin: 30px 0px 0px 060px;
+}
+#fb
+{
+	float:left;
+	width: 360px;
+	height: 75px;
+}
+.fb
+{
+	margin:-10px 0px 0px 150px;
+	
+}
+#submittextbox
+{
+	float:left;
+	width:255px;
+	height:50px;
+	border-radius: 10px ;
+	moz-border-radius:10px;
+	background-image: url(images2/submith.jpg);
+	background-repeat:repeat-x;
+	background-position:centre;
+	margin: -25px 0px 0px 060px;
+}
+	
+.submittext
+{
+    margin-top:14px;
+    margin-left:23px;	
+    font:Verdana, Geneva, sans-serif;
+	font-size:22px;
+	color: #fff;
+}
+#contact
+{
+border:3px solid #0070C0;
+border-radius:6px;
+mox-border-radius:6px;
+width:280px;
+height:auto;
+float:left;
+margin:15px 0px 0px 40px;
+line-height:20px;
+}
+.contact
+{
+margin-left:30px;
+margin-top:6px;
+    font:Verdana, Geneva, sans-serif;
+	font-size:22px;
+	}
+.numbers
+{
+    margin-left:80px;
+    font:Verdana, Geneva, sans-serif;
+	font-size:22px;
+	margin-top:-15px;
+	color:#f00;
+	line-height:15px;
+	margin-bottom:10px;
+	}
+#maincontent
+{
+float:left;
+width:900px;
+height:auto;
+margin-left:50px;
+margin-top:10px;
+}
+#para1
+{
+float: left;
+width: 900px;
+height: auto;
+line-height: 13px;
+}
+.normaltext
+{
+font-size:14px;
+font-family:Verdana, Geneva, sans-serif;
+
+}
+.hightext
+{
+font-size:16px;
+font-family:Verdana, Geneva, sans-serif;
+font-weight: 600;
+color:#00f;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+#para2
+{
+float: left;
+width: 900px;
+height: auto;
+line-height: 13px;
+margin-top:10px;
+}

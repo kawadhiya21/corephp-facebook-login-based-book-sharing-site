@@ -1,0 +1,149 @@
+body
+{
+    background: #FFF;
+}
+#bodyCenter {
+width:1200px;
+margin-bottom:0;
+margin-top:0;
+margin-left: 150px;
+
+/* background:#111;
+*/
+}
+
+#bodySecond {
+width:1030px;
+margin-bottom:0;
+margin-top:0;
+margin-left:170px;
+margin-right:auto;
+}
+
+#top {
+width: 95%;
+background:#FFF;
+height:150px;
+}
+
+#browse
+{
+	float: left;
+	width: 630px;
+	height: 160px;
+}
+#mybag
+{
+	float: left;
+	width: 100px;
+	height: 160px;
+}
+#signuparea
+{
+	width: 300px;
+	height: 160px;
+	float:right;
+	margin-left:auto;
+}
+#loginarea
+{
+	float:left;
+	width:300px;
+	height:160px;
+}
+#loginvia
+{
+	width: 95%;
+	height: 25px;
+	background-color:#FFF;
+	margin-top: -20px;
+}
+#loginvia p
+{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size: 23px;
+	text-align:center;
+}
+#loginicons
+{
+	width: 90%;
+	height: 60px;
+	
+}
+#fb
+{   
+        float: left;
+	width: 32px;
+	height: 32px;
+	margin: 14px 10px 14px 100px;
+}
+#maincenter
+{
+	width: 99%;
+	height: 300px;
+}
+#maincenter_right
+{
+	float: right;
+        width: 80%;
+	height: 300px;
+}
+#maincenter_center
+{
+	float: left;
+        width: 40%;
+	height: 300px;
+}
+
+#mainlogo
+{
+	float:right;
+	width: 80%;
+	height: 300px;
+}
+
+#searcharea
+{
+	float:left;
+	width: 80%;
+	height: 30px;
+}
+
+#footer
+{
+	float:left;
+	width: 1200px;
+	height: 10%;
+	position:fixed;
+	bottom:0px;
+	text-align:center;
+}
+
+#footnote
+{
+	float:left;
+	position: fixed;
+	width: 110%;
+	height: 10%;
+	bottom: 0px;
+	background-color: #0070C0;
+        margin-left: -60px;
+	text-align:center;
+	z-index:-2;
+}
+#footertext
+{
+	color: #FFF;
+	font:"Arial Black", Gadget, sans-serif;
+	font-size: 30px;
+	width:1080px;
+	float:left;
+	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+}
+.linkwhite a:link, a:visited, a:active, a:focus, a:hover{
+    color: #FFF;
+    text-decoration:none;
+}

@@ -1,0 +1,213 @@
+/************************** Reset Css is defined here ***********************************/
+
+
+html, body, div, span,   
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+img, ins, kbd, q, s, samp,  
+small, strike, strong,   
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td {  
+    margin: 0;  
+    padding: 0;  
+    border: 0;  
+    outline: 0;  
+    font-size: 100%;  
+    vertical-align: baselinebaseline;  
+    background: transparent;  
+}  
+body {  
+    line-height: 1;  
+}  
+ol, ul {  
+    list-style: none;  
+}  
+blockquote, q {  
+    quotes: none;  
+}  
+blockquote:before, blockquote:after,  
+q:before, q:after {  
+    content: '';  
+    content: none;  
+}  
+  
+table {  
+    border-collapse: collapse;  
+    border-spacing: 0;  
+}  
+
+/*************************************** Common Css is defined here ***************************************/
+
+a{
+    text-decoration:none;
+	color:none;
+}
+
+#container{
+    margin-left:auto;
+    margin-right:auto;
+    width:1020px;
+	height:auto;
+}
+
+#header{width:760px;
+}
+
+#navAndSearch{
+}
+
+.navlinks{
+    display:block;
+	float:left;
+	margin:15px 0px 15px 10px;
+    width:80px;
+	height:50px;
+	padding-top:30px;
+	border-radius:40px;
+	background-color:#0070c0;
+	
+	text-align:center;
+	color:#ffffff;
+	font-size:14px;
+}
+
+#searchbox{
+    width:660px;
+	border-radius:15px;
+	height:auto;
+	float:left;
+	margin:10px 0px 10px 20px;
+	background-color:#0070c0;
+}
+
+#searchform{
+    width:auto;
+    height:auto;
+	margin-top:15px;
+	margin-bottom:15px;
+	margin-left:15px;
+}
+
+#mainContent{
+    width:960px;
+	margin-top:15px;
+}
+
+#bookDisplay{
+    float:right;
+    width:725px;
+	padding:15px;
+	height:auto;
+	border:10px solid #0070c0;
+	border-radius:15px;
+}
+
+.seperator{
+    width:1020px;
+	height:10px;
+	background-color:#f60;
+}
+
+#header
+{
+	width:760px;
+	height: 160px;
+}
+#logo
+{
+	float:left;
+	width: 120px;
+	height: 160px;
+}
+#contact
+{
+	float:left;
+	width: 640px;
+	height: 160px;
+}
+#context
+{
+	float:left;
+	width:440px;
+	height: 160px;
+}
+#text
+{
+	height: 35px;
+	width: 330px;
+	margin: 100px 0px 0px 140px;
+}
+#text p
+{
+	font:"Times New Roman", Times, serif;
+	font-size: 30px;
+}
+#contextimg
+{
+	float:left;
+	width: 200px;
+	height: 160px;
+}
+#contextimg img
+{
+	margin-top: 10px;
+}
+#loginarea
+{
+	float:left;
+	position:absolute;
+	width:260px;
+	height:160px;
+        margin:0px 0px 0px 760px;
+}
+
+#loginvia{
+    
+	position:absolute;
+	top:0px;
+	padding:20px 0px 20px 0px;
+	width:200px;
+	text-align:center;
+	
+	font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 23px;
+}
+
+#loginicons{
+    position:absolute;
+	top:57px;
+	left:0px;
+	padding:7px 58px 7px 58px;
+}
+
+#fb{
+    float:left;
+    width:32px;
+	height:32px;
+	margin:0;
+	padding:0;
+}
+
+#gg{
+    float:left;
+    width:32px;
+	height:32px;
+	margin:0;
+	padding:0;
+	margin-left:20px;
+}
+
+#signup{
+    position:absolute;
+	bottom:0px;
+	width:200px;
+	text-align:center;
+	padding:20px 0px 20px 0px;
+	
+	font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 23px;
+	color:#000000;
+}
+
+

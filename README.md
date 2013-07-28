@@ -1,0 +1,1 @@
+It is a book sharing website where you can put up your books and see what others have. Then you can pay the rent for the books you want to read and we get it for you from others. It is a simple site made with core-php/facebook login.
